@@ -14,8 +14,8 @@ def run():
 
         # Playwright automatically waits for elements to appear before interacting!
         print("Filling in credentials...")
-        page.fill("input[type='email']", "duggitharun909@gmail.com")
-        page.fill("input[type='password']", "Td@2023*")
+        page.fill("input[type='email']", "talisetty.tarun@gmail.com")
+        page.fill("input[type='password']", "Ttsy@2026$%")
         
         # Playwright's clicks send trusted events, which often avoids React quirks,
         # so we may not even need the "double login" trick anymore!
