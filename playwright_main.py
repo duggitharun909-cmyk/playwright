@@ -41,8 +41,8 @@ def run():
             
             # If the page refreshed (the React quirk), let's try entering credentials one more time
             print("Trying double-login trick...")
-            page.fill("input[type='email']", "duggitharun909@gmail.com")
-            page.fill("input[type='password']", "Td@2023*")
+            page.fill("input[type='email']", "talisetty.tarun@gmail.com")
+            page.fill("input[type='password']", "Ttsy@2026$%")
             page.click("button:has-text('Sign In')")
             
             # Wait for Check In again
