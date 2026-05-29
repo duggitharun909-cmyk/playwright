@@ -2,8 +2,8 @@ name: Daily Office Check-In
 
 on:
   schedule:
-    # This runs at 5:50 AM UTC, which is exactly 11:20 AM IST (Indian Standard Time). 
-    - cron: '50 5 * * *'
+    # This runs at 5:55 AM UTC, which is exactly 11:25 AM IST (Indian Standard Time). 
+    - cron: '55 5 * * *'
   
   workflow_dispatch: # This allows you to click a button to run it manually anytime!
 
