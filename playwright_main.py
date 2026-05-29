@@ -7,7 +7,7 @@ def check_in_user(email, password):
     with sync_playwright() as p:
         # For testing locally, headless=False lets you see the browser.
         # Change it back to True when you deploy to PythonAnywhere!
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()
 
